@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-parcelize'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -44,4 +44,5 @@ dependencies {
 
     // Amplify
     implementation 'com.amplifyframework:core:1.35.1'
+    implementation 'com.amplifyframework:aws-auth-cognito:1.35.1'
 }
